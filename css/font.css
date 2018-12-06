@@ -1,0 +1,24 @@
+@font-face {
+font-family:'sans';
+src:url('../fonts/IRANSansLight.woff') format('woff'),
+	url(../fonts/IranSans.eot) format('eot'),
+	url(../fonts/IranSans.eot?#iefix) format('embedded-opentype'),
+    url('../fonts/IRANSansLight.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+	font-variant:normal;
+}
+@font-face {
+font-family:'sansBold';
+src:url('../fonts/IRANSansMedium.woff') format('woff'),
+	url(../fonts/IRANSansMedium.eot) format('eot'),
+	url(../fonts/IRANSansMedium.eot?#iefix) format('embedded-opentype'),
+    url('../fonts/IRANSansMedium.ttf') format('truetype');
+	font-weight:bold;
+}
+span{
+  font-family: sans;
+}
+body{
+	font-family: sansBold;
+}
