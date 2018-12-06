@@ -176,7 +176,7 @@ footer p{
   font-family: sans;
 }
 footer hr{
-  width: 100%;
+  width: 95%;
 }
 
 /* /////media query */
@@ -184,4 +184,12 @@ footer hr{
 @media (max-width:992px) {
   .mobilemenu{visibility: visible;;}
   .desktopmenu{visibility: hidden;}
+  .text{
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    display: block;
+    color: #fff;
+  }
+
 }
