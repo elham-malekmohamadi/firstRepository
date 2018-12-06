@@ -175,7 +175,9 @@ footer p{
   font-size: 13px;
   font-family: sans;
 }
-
+footer hr{
+  width: 100%;
+}
 
 /* /////media query */
 
