@@ -31,7 +31,7 @@ a:hover , a:visited , a:focus , a:active{text-decoration: none;}
   height: 212px;
   width: 150px;
   position: absolute;
-  right: 34%;
+  right: 316px;
 }
 .mainDropDownMenu>ul{
   padding: 0 !important;
@@ -84,7 +84,7 @@ a:hover , a:visited , a:focus , a:active{text-decoration: none;}
   padding: 0 15px;
   font-size: .9em;
   font-weight: bold;
-  height: 56px;
+  /* height: 56px; */
   color: #fff
 }
 .brand{
@@ -98,7 +98,9 @@ a:hover , a:visited , a:focus , a:active{text-decoration: none;}
 /* //////////////////////mobilemenu//////////////// */
 .iconbar{
   color: #fff;
-  font-size: 32px;
+  font-size: 14px;
+  margin: auto;
+  padding-right: 44px;
 }
 .fa-bars{
   cursor: pointer;
@@ -112,11 +114,13 @@ a:hover , a:visited , a:focus , a:active{text-decoration: none;}
   font-size: 14px;
 }
 .mainmenuMobile>ul{
-  padding: 0;
+  padding: 10px 0;
+  margin: 0 5%;
+  font-size: 10px;
 }
 .mainmenuMobile a{
   color: #fff;
-  padding: 16px 0;
+  padding: 14px 0;
   display: block;
   padding-right: 20px;
 }
@@ -128,6 +132,7 @@ background: #d33551;
 }
 .mobilemenu{visibility: hidden;}
 section{border-bottom: 1px solid #ccc;}
+.mainDropDownMenuMobile{display: none;}
 /* ///////////////////////////////////// section-1////////////////////////////*/
 .headerwrap{
   background: #000;
@@ -144,7 +149,7 @@ section{border-bottom: 1px solid #ccc;}
 }
 .text{
   position: absolute;
-  right:0;
+  right:0 !important;
   top: 32%;
   color: #fff;
   text-align: center;
@@ -192,10 +197,39 @@ footer hr{
   .desktopmenu{visibility: hidden;}
   .text{
     position: absolute;
-    right: 4%;
-    top: 30%;
-    display: block;
+    right:0 !important;
+    top: 32%;
     color: #fff;
+    text-align: center;
   }
+  .mainDropDownMenu{
+    position: absolute;
+    z-index: 9;
+    top: 39%;
+    right: 16px;
+    background:#eb3b5a;
+    height: auto;
+  }
+  .mainDropDownMenu{
+    height: 50px;
 
+  }
+  .mainDropDownMenuMobile{
+    background: #eb3b5a;
+    height: auto;
+    width: auto;
+    position: absolute;
+    right: 17px;
+    z-index: 9;
+    top: 217px;
+    /* transform-origin: 100% 0px 0px;
+    transform: scaleX(1) scaleY(1); */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  }
+  .mainDropDownMenuMobile li{
+    background: #eb3b5a;
+    min-height: 50px;
+    line-height: 1.5rem;
+    padding: 10px 0;
+  }
 }
