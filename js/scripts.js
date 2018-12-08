@@ -5,3 +5,6 @@ $(".dropdown-list").click(function () {
 $(".iconbar").click(function(){
   $(".mainmenuMobile").toggle();
 });
+$(".dropdown-list-mobile").click(function () {
+  $(".mainDropDownMenuMobile").toggle();
+});
