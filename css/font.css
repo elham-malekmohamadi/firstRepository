@@ -16,9 +16,3 @@ src:url('../fonts/IRANSansMedium.woff') format('woff'),
     url('../fonts/IRANSansMedium.ttf') format('truetype');
 	font-weight:bold;
 }
-span{
-  font-family: sans;
-}
-body{
-	font-family: sansBold;
-}
