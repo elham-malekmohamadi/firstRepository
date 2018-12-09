@@ -31,7 +31,6 @@ h1 , h2 , h3 , {font-family: sansBold !important;}
 .mainDropDownMenu{display: none;}
 .mainDropDownMenu{
   background: #eb3b5a;
-  height: 212px;
   width: 150px;
   position: absolute;
   right: 307px;
@@ -43,7 +42,6 @@ h1 , h2 , h3 , {font-family: sansBold !important;}
   background: #d33551;
 }
 .mainDropDownMenu li{
-  padding: 16px 0;
   text-align: center;
 }
 .menu-link:hover{
@@ -88,8 +86,9 @@ h1 , h2 , h3 , {font-family: sansBold !important;}
   font-size: .9em;
   font-weight: 500;
   color: #fff;
-  padding: 0 15px;
+  padding: 16px 15px;
   font-weight: bold;
+  display: block;
 }
 .brand{
   padding: 0 !important;
@@ -127,6 +126,7 @@ h1 , h2 , h3 , {font-family: sansBold !important;}
   padding: 14px 0;
   display: block;
   padding-right: 20px;
+  font-weight: bold;
 }
 .mainmenuMobile a:hover{
 background: #d33551;
@@ -219,10 +219,6 @@ footer hr{
     background:#eb3b5a;
     height: auto;
   }
-  .mainDropDownMenu{
-    height: 50px;
-
-  }
   .mainDropDownMenuMobile{
     background: #eb3b5a;
     height: auto;
@@ -241,4 +237,5 @@ footer hr{
     line-height: 1.5rem;
     padding: 10px 0;
   }
+  .menu-link{padding: 0 15px; font-size: 10px;}
 }
