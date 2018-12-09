@@ -1,7 +1,8 @@
-body{direction: rtl;}
+body{direction: rtl; font-size: 1em;}
 .col-md-8 , .col-md-4 {padding-top: 0; padding-bottom: 0;}
 ul , li {list-style: none; margin: 0;}
 a:hover , a:visited , a:focus , a:active{text-decoration: none;}
+h1{font-size: 1.8em;}
 #white{background: #fff;}
 .rtl{direction: rtl;}
 .ltr{direction: ltr;}
@@ -10,9 +11,9 @@ a:hover , a:visited , a:focus , a:active{text-decoration: none;}
 .text-right{text-align: right !important;}
 .text-justify{text-align: justify;}
 .mr-auto{margin: auto !important;}
-.font-1{font-size: 2em;}
+.font-1{font-size: 1.8em;}
 .font-2{font-size: 2.5em;}
-.font-3{font-size: 3.5em;}
+.font-3{font-size: 2.1em;}
 .font-65{font-size: 65px;}
 .font-bold{font-weight: bold;}
 /* .row{margin: 0 !important; padding: 0 !important;} */
@@ -24,6 +25,7 @@ a:hover , a:visited , a:focus , a:active{text-decoration: none;}
 .pt30{padding-top: 30px;}
 .pr7{padding-right: 7px;}
 .pl7{padding-left: 7px;}
+.row-custom>h3{font-size: 1.5em;}
 /* ///////////////////////mainDropDownMenu */
 .mainDropDownMenu{display: none;}
 .mainDropDownMenu{
@@ -57,6 +59,7 @@ a:hover , a:visited , a:focus , a:active{text-decoration: none;}
   position: fixed;
   z-index: 2;
   width: 100%;
+  top: 0;
 }
 .navbar-bg{
   background: #eb3b5a !important;
@@ -71,21 +74,18 @@ a:hover , a:visited , a:focus , a:active{text-decoration: none;}
 }
 .menu>ul>li{
   display: inline-block;
-  padding: 16px 1px;
 }
 .menu ul li a{
   color: #fff;
-  height: 56px;
+  padding: 18px 15px;
+  display: block;
 }
 .menu li:hover{
   background: #d33551;
 }
 .menu-link{
-  padding: 0 15px;
   font-size: .9em;
   font-weight: bold;
-  /* height: 56px; */
-  color: #fff
 }
 .brand{
   padding: 0 !important;
@@ -145,7 +145,7 @@ section{border-bottom: 1px solid #ccc;}
   min-height: 384px;
   filter: blur(2px);
   -webkit-filter:blur(2px);
-  opacity: .5;
+  opacity: .3;
 }
 .text{
   position: absolute;
@@ -183,7 +183,7 @@ footer{
   padding: 30px 0;
 }
 footer p{
-  font-size: 13px;
+  font-size: .7em;
   font-family: sans;
 }
 footer hr{
@@ -193,8 +193,13 @@ footer hr{
 /* /////media query */
 
 @media (max-width:992px) {
-  .mobilemenu{visibility: visible;;}
+  .mobilemenu{visibility: visible;}
   .desktopmenu{visibility: hidden;}
+  .mobilemenu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
   .text{
     position: absolute;
     right:0 !important;
@@ -233,3 +238,4 @@ footer hr{
     padding: 10px 0;
   }
 }
+.show{display: block;}
